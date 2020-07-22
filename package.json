@@ -52,6 +52,16 @@
     "lint-staged": "^10.2.11",
     "prettier": "^2.0.5"
   },
+  "lint-staged": {
+    "*.{ts,tsx}": [
+      "yarn eslint . --ext .tsx --ext .ts --fix"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
   "prettier": {
     "semi": false,
     "singleQuote": true,
