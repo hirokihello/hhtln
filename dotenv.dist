@@ -1,1 +1,2 @@
-SKIP_PREFLIGHT_CHECK=true # なぜかcreate-react-appでinstallされるeslintのバージョンが合わないので
+SKIP_PREFLIGHT_CHECK=true
+# なぜかcreate-react-appでinstallされるeslintのバージョンが合わないので上記を追記
